@@ -1,0 +1,80 @@
+body {
+  height: 100vh;
+  background: black;
+}
+
+.btn_custom {
+  outline: none;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  text-decoration: underline;
+  color: white;
+}
+
+form {
+  margin-bottom: 3rem;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+}
+
+section img {
+  width: 300px;
+  transition: 250ms all;
+  -webkit-transition: 250ms all;
+  -moz-transition: 250ms all;
+  -ms-transition: 250ms all;
+  -o-transition: 250ms all;
+}
+
+section img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.content {
+  border: 2px solid white;
+  padding: 1rem;
+  border-radius: 10px;
+  display: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 3rem;
+}
+
+#content-close {
+  cursor: pointer;
+  color: white;
+}
+
+#content-close:hover {
+  opacity: 0.5;
+}
+
+.content div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem;
+}
+
+.content-display {
+  display: block;
+}
